@@ -1,0 +1,18 @@
+'R260402Geometry.analyticAt_field' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.field_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.field_tendsto_pole' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.analytic_zeros_finite_on_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.finite_zeros_of_local_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.isolated_regular_zeros' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.finite_ray_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.success_eq_finite_interval_union' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.intervalFamily_ordConnected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.success_relatively_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.success_eq_finite_relatively_closed_intervals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'R260402Geometry.closedIntervalFamily_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.interior_boundary_is_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.sqDist_ofPolar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.field_sqrt_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402Geometry.field_nonneg_iff_sinr' depends on axioms: [propext, Classical.choice, Quot.sound]

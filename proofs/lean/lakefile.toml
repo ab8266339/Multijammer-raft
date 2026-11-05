@@ -1,0 +1,12 @@
+name = "r260402proofs"
+version = "2.0.0"
+defaultTargets = ["R260402Proofs"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f"
+
+[[lean_lib]]
+name = "R260402Proofs"
+roots = ["R260402Proofs", "R260402Multijammer", "R260402Supplement", "R260402Geometry", "R260402QuorumLimit"]

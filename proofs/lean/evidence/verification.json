@@ -1,0 +1,611 @@
+{
+  "dateInUserTimezone": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "completedUtcReportedByBRJD": "2026-11-05T21:47:05.228432+00:00",
+  "machine": "DESKTOP-BRJD313",
+  "project": "/mnt/e/claude-lean-work/r260402-full-20261106",
+  "leanVersion": "Lean (version 4.31.0, x86_64-w64-windows-gnu, commit 68218e876d2a38b1985b8590fff244a83c321783, Release)",
+  "mathlibCommit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+  "buildExitCode": 0,
+  "axiomAuditExitCode": 0,
+  "theoremsAndLemmas": 98,
+  "auditedDeclarations": 112,
+  "allowedAxioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "forbiddenConstructScan": "passed",
+  "sources": [
+    {
+      "file": "R260402Multijammer.lean",
+      "sha256": "bec0c8d03b67dce3ea2a6bb9217e2bd7d224aaa86dd277e50490dd663f49f0bc",
+      "theoremsAndLemmas": 12,
+      "auditedDeclarations": 12
+    },
+    {
+      "file": "R260402Supplement.lean",
+      "sha256": "763e264be87b32521a8ccf2677d1736a9e4bef23befd0bf36ea8946bf1dc2e25",
+      "theoremsAndLemmas": 4,
+      "auditedDeclarations": 5
+    },
+    {
+      "file": "R260402Geometry.lean",
+      "sha256": "573d1fb7c23235fb407355837e1bdc7de8ea4ff9a4bd1974d9974330f448630b",
+      "theoremsAndLemmas": 38,
+      "auditedDeclarations": 49
+    },
+    {
+      "file": "R260402QuorumLimit.lean",
+      "sha256": "15a0c4d770378746a75b92f022eacc616a422410d4fe8821e37dcffbd30eec33",
+      "theoremsAndLemmas": 44,
+      "auditedDeclarations": 46
+    }
+  ],
+  "axioms": {
+    "R260402.rpow_le_rpow_iff_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.uplink_critical_radius": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.quorum_followers_needed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.old_threshold_too_strong": [
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.ray_reentry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.failure_past_jammer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.apollonius_circle": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.beta_exponent_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.worst_case_upper_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.worst_case_attained": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.poisson_pgf": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402.quorum_half_symmetry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Supplement.apollonius_beta_one_line": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Supplement.quorum_half_odd_symmetry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Supplement.oddHalfQuorum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Supplement.odd_half_quorum_exact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Supplement.odd_half_quorum_gt_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.Config": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.sqDist": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.field": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.regular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.domain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.success": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.analyticAt_rpow_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.analyticAt_sqDist": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.analyticAt_field": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.sqDist_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.sqDist_zero_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.analyticAt_interference": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.field_tendsto_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.field_tendsto_pole": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.analytic_zeros_finite_on_compact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.isolated_of_left_divergence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.poles": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.mem_poles_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.zero_not_poles": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.regular_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.regular_interval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.finite_zeros_of_local_exclusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.isolated_regular_zeros": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.finite_ray_roots": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.finite_bracket": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.interval_nonneg_of_no_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.cuts": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.zero_mem_cuts": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.radius_mem_cuts": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.poles_subset_cuts": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.roots_subset_cuts": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.cell_success": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.intervalFamily": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.success_eq_finite_interval_union": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.intervalFamily_ordConnected": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.success_relatively_closed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.intervalFamily_subset_success": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.closure_inter_domain_subset_success": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.interval_closure_inter_ordConnected": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.closedIntervalFamily": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.success_eq_finite_relatively_closed_intervals": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.closedIntervalFamily_properties": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.isOpen_regular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.interior_boundary_is_root": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.rotated_norm_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.ofPolar": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.sqDist_ofPolar": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.field_sqrt_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402Geometry.field_nonneg_iff_sinr": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.binomTerm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.binomTerm_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.sum_binomTerm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.binomTerm_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.binomTerm_center": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.centralBinom_cast_succ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.sqrt_ratio_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.centralBinom_div_four_pow_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.four_mul_prob_lt_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.central_edge_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_central_edge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.binom_tail_le_tilt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tilt_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tilt_square_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.even_bound_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.odd_bound_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb_odd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.lower_sum_even": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorum_even_complement": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.lower_sum_odd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.sum_Ico_singleton_center": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorum_odd_complement": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb_even_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb_odd_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.odd_half_abs_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb_eq_zero_of_p_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_quorumProb_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_nat_pred_atTop": [
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb_even_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb_odd_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_quorumProb_even_of_lt_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_quorumProb_odd_of_lt_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_of_even_odd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_quorumProb_of_lt_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_quorumProb_even_of_gt_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_quorumProb_odd_of_gt_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_quorumProb_of_gt_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_inv_two_sqrt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_quorumProb_even_of_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_quorumProb_odd_of_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.tendsto_quorumProb_of_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "R260402QuorumLimit.quorumProb_tendsto": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "acceptedTexSha256": "52492e4f0fea79b186978c7e14c67bdee9dadc8ba4323367c51a2a3bf2a57bd7",
+  "scope": [
+    "Full finite-sum quorum asymptotics for every p in [0,1] and all n",
+    "General finite-jammer analytic ray decomposition"
+  ],
+  "acceptedManuscriptModified": false
+}

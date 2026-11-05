@@ -1,0 +1,60 @@
+QuorumChecked.lean:274:34: warning: Variable name `hp` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+QuorumChecked.lean:417:2: warning: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+QuorumChecked.lean:639:52: warning: Variable name `hp0` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'R260402QuorumLimit.binomTerm_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.quorumProb_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.sum_binomTerm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.binomTerm_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.binomTerm_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.centralBinom_cast_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.sqrt_ratio_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.centralBinom_div_four_pow_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.four_mul_prob_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.central_edge_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_central_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.binom_tail_le_tilt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tilt_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.even_bound_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.odd_bound_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.quorumProb_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.quorumProb_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.lower_sum_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.quorum_even_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.lower_sum_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.sum_Ico_singleton_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.quorum_odd_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.quorumProb_even_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.quorumProb_odd_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.odd_half_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.quorumProb_eq_zero_of_p_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_quorumProb_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_nat_pred_atTop' depends on axioms: [propext, Quot.sound]
+'R260402QuorumLimit.quorumProb_even_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.quorumProb_odd_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_quorumProb_even_of_lt_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_quorumProb_odd_of_lt_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_of_even_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_quorumProb_of_lt_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_quorumProb_even_of_gt_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_quorumProb_odd_of_gt_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_quorumProb_of_gt_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_inv_two_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_quorumProb_even_of_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_quorumProb_odd_of_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.tendsto_quorumProb_of_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R260402QuorumLimit.quorumProb_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nat.centralBinom_le_four_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Nat.succ_mul_centralBinom_succ' depends on axioms: [propext]
+'Nat.sum_range_choose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'add_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'tendsto_pow_atTop_nhds_zero_of_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
